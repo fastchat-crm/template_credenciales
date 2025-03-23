@@ -1,2 +1,2 @@
 # credenciales.json formato para DJANGO
-# .env para NODEJS
+# .env formato para NODEJS
