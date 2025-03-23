@@ -91,6 +91,8 @@ python manage.py runserver
 
 # Shell
 python manage.py shell
+python manage.py sync_whatsapp_sessions
+
 ```
 
 ### Node.js
