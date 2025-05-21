@@ -37,6 +37,11 @@ Redis se utiliza para:
 - Sesiones de usuario
 - Bloqueadores de velocidad (rate limiting)
 
+#### WINDOWS (DOCKER)
+docker run --name my-redis -p 6379:6379 -v C:\ruta\a\tus\datos:/data -d redis redis-server --appendonly yes
+#### Por ejemplo, si quieres guardar los datos en una carpeta llamada "redis-data" en tu directorio C:
+docker run --name my-redis -p 6379:6379 -v C:\redis-data:/data -d redis redis-server --appendonly yes
+
 Asegúrate de tener Redis instalado:
 ```bash
 # Ubuntu/Debian
