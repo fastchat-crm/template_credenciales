@@ -42,6 +42,7 @@ docker run --name my-redis -p 6379:6379 -v C:\ruta\a\tus\datos:/data -d redis re
 #### Por ejemplo, si quieres guardar los datos en una carpeta llamada "redis-data" en tu directorio C:
 docker run --name my-redis -p 6379:6379 -v C:\redis-data:/data -d redis redis-server --appendonly yes
 
+#### UBUNTU (DOCKER)
 Asegúrate de tener Redis instalado:
 ```bash
 # Ubuntu/Debian
@@ -72,17 +73,6 @@ Utilizado para:
 Instalación:
 ```bash
 npm install
-```
-
-### FastAPI
-Implementación de microservicios específicos de alto rendimiento:
-- Procesamiento de lenguaje natural
-- Integración con modelos de ML
-- Endpoints de alto rendimiento
-
-Instalación:
-```bash
-pip install fastapi uvicorn
 ```
 
 ## Estructura del proyecto
