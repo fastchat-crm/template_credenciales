@@ -15,6 +15,21 @@ El archivo `.env` debe estar en la raíz del proyecto Node.js con el siguiente f
 
 ## TECNOLOGÍAS A USAR
 
+### NVM (PARA MÚLTIPLES VERSIONES DE NODE JS)
+
+#### WINDOWS
+https://github.com/coreybutler/nvm-windows/releases/tag/1.2.2
+
+#### UBUNTU
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+source ~/.bashrc
+nvm --version
+##### Instalar Node.js en su última versión
+nvm install node
+
+#### Ahora comprobamos que tengamos Node.js y npm instalados.
+node --version | npm --version
+
 ### Redis
 Redis se utiliza para:
 - Almacenamiento en caché
