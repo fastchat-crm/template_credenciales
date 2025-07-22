@@ -8,7 +8,7 @@ Este documento proporciona la información necesaria para configurar y desarroll
 
 El archivo `credenciales.json` debe estar en la raíz del proyecto Django con el siguiente formato:
 
-### Para Node.js (.env)
+- ### Para Node.js (.env) (baileys js)
 
 El archivo `.env` debe estar en la raíz del proyecto Node.js con el siguiente formato:
 
